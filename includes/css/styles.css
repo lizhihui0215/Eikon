@@ -13,7 +13,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+.carousel-control > .left {
+  background-color: transparent;
+}
 
 
 /* --------------------------------------
@@ -44,6 +46,7 @@ Notes:	 Hand coded for Udemy.com
 .work:focus{
   color: white;
   background-color: #199CD8;
+  border-color: white;
 }
 .watch-video{
   color: white;
