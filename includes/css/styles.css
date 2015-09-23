@@ -1,0 +1,94 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-nav a{
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.work{
+  color: white;
+  margin: 9px 20px 9px 0 ;
+  padding: 0 0 0 0;
+  background-color: transparent;
+  line-height: 42px;
+  width: 110px;
+  border-color: white;
+}
+
+.work:hover,
+.work:focus{
+  color: white;
+  background-color: #199CD8;
+}
+.watch-video{
+  color: white;
+  margin: 9px 20px 9px 0 ;
+  padding: 0 0 0 0;
+  background-color: #199CD8;
+  border: none;
+  line-height: 42px;
+  width: 164px;
+}
+
+.watch-video:hover,
+.watch-video:focus {
+  color: white;
+  background-color: #1580B2;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
