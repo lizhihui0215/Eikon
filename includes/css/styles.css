@@ -27,6 +27,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+/*.navbar{
+  margin: auto;
+}*/
 .navbar-nav a{
   font-family: Roboto, sans-serif;
   font-size: 16px;
