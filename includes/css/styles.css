@@ -9,13 +9,15 @@ Notes:	 Hand coded for Udemy.com
 
 */
 
+/* --------------------------------------
+  Body
+   -------------------------------------- */
+
 
 /* --------------------------------------
    Layout
    -------------------------------------- */
-.carousel-control > .left {
-  background-color: transparent;
-}
+
 
 
 /* --------------------------------------
@@ -35,49 +37,92 @@ Notes:	 Hand coded for Udemy.com
   font-size: 16px;
 }
 
-.work{
-  color: white;
-  margin: 9px 20px 9px 0 ;
-  padding: 0 0 0 0;
-  background-color: transparent;
-  line-height: 42px;
-  width: 110px;
-  border-color: white;
-}
 
-.work:hover,
-.work:focus{
-  color: white;
-  background-color: #199CD8;
-  border-color: white;
-}
-.watch-video{
-  color: white;
-  margin: 9px 20px 9px 0 ;
-  padding: 0 0 0 0;
-  background-color: #199CD8;
-  border: none;
-  line-height: 42px;
-  width: 164px;
-}
 
-.watch-video:hover,
-.watch-video:focus {
-  color: white;
-  background-color: #1580B2;
-}
 
 
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+.carousel{
+  margin-bottom: 60px
+}
+.carousel-caption{
+  top: 0px;
+  bottom: auto;
+}
 
+.home-headline{
+  margin-top: 115px;
+  color: rgb(113,173,255);
+  display: inline-block;
+  font-size: 100px;
+  text-shadow: none;
+}
+
+.home-sub{
+  margin-bottom: 37px;
+  font-size: 19px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(81, 81, 81);
+  text-shadow: none;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4{
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+   .secondary-button{
+     color: white;
+     /*margin: 9px 20px 9px 0 ;*/
+     padding: 0 20px 0 20px;
+     background-color: transparent;
+     line-height: 40px;
+     border-color: white;
+   }
 
+   .secondary-button:hover,
+   .secondary-button:focus{
+    color: white;
+    background-color: #199CD8;
+    border-color: white;
+   }
+   .primary-button{
+    color: white;
+    padding: 0 20px 0 20px;
+    background-color: #199CD8;
+    border: none;
+    line-height: 42px;
+    width: auto;
+   }
+
+   .primary-button:hover,
+   .primary-button:focus {
+    color: white;
+    background-color: #1580B2;
+   }
+
+
+/* --------------------------------------
+  Footer
+  -------------------------------------- */
+.footer-links {
+
+}
+
+.footer-links li{
+  display: inline;
+}
 
 
 /* --------------------------------------
